@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts 오픈산스-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome 화살표 아이콘-->
+    <script
+      src="https://kit.fontawesome.com/9eb162ac0d.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="header__logo">
+        <h1 class="header__logo__title"><a href="#">HYUN</a></h1>
+      </div>
+      <nav class="header__nav">
+        <ul class="header__menu">
+          <li><a class="header__menu__item active" href="#home">Home</a></li>
+          <li><a class="header__menu__item" href="#about">About</a></li>
+          <li><a class="header__menu__item" href="#skills">Skills</a></li>
+          <li><a class="header__menu__item" href="#work">My work</a></li>
+          <li>
+            <a class="header__menu__item" href="#testimonial">Wise saying</a>
+          </li>
+          <li><a class="header__menu__item" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Main -->
+    <main>
+      <!-- Home -->
+      <section id="home">
+        <img
+          class="home__avatar"
+          src="profile.png"
+        />
+        <h2 class="home__title">
+         안녕하세요<br>
+          <strong class="home__title--strong">신입 개발자 정수현입니다</strong>
+        </h2>
+        <p class="home__description">
+          I want to be a web developer living in Nowon, Seoul
+        </p>
+        <a class="home__contact" href="#contact">Contact Me</a>
+      </section>
+      
+      <!-- About me -->
+      <section id="about" class="section max-container">
+        <h2 class="title">About me</h2>
+        <p class="description">
+          도전적인 삶을 살고싶은 정수현입니다 <br>저는 31살이고 
+                백엔드 프론트엔드의 전문가가 되고 싶으며 모바일 개발까지 꿈꾸고 있습니다.<br>
+                더 노력하겠습니다 잘부탁드립니다.
+        </p>
+        <ul class="majors">
+          <li class="major">
+            <i class="fa-brands fa-html5 major__icon"></i>
+            <p class="major__title">Front-end</p>
+            <p>HTML,   CSS,   JavaScript 프론트엔드 관련 지식</p>
+          </li>
+          <li class="major">
+            <i class="fa-solid fa-mobile major__icon"></i>
+            <p class="major__title">Mobile</p>
+            <p>Anodroid,     모바일 관련 지식  ... ETC</p>
+          </li>
+          <li class="major">
+            <i class="fa-solid fa-server major__icon"></i>
+            <p class="major__title">Back-end</p>
+            <p>Java, JavaScript, 백엔드 관련 지식 ... ETC</p>
+          </li>
+        </ul>
+        <ul class="jobs">
+          <li class="job">
+            <img src="images/jobs/nowon (3).jpg"/>
+            <div>
+              <p class="job__name">노원구 보건소 선별진료소</p>
+              <p class="job__period">2020~2022</p>
+            </div>
+          </li>
+
+        </ul>
+      </section>
+     
+      <!-- Skills -->
+      <section id="skills" class="section">
+        <h2 class="title">My Skills</h2>
+        <p class="description">Skills</p>
+        <p> 아직 많이 부족하지만 앞으로 더 올라가기 위해 노력하겠습니다</p>
+        <div class="skills">
+            <section class="skills__coding">
+                <h3 class="skills__title">Coding Skills
+                    <ul>
+                        <li class="bar">
+                            <div class="bar__metadata"><span>HTML</span><span>30%</span></div>
+                            <div class="bar__bg">
+                                <div class="bar__value" style="width: 30%"></div>
+                            </div>
+                        </li>
+                        <li class="bar">
+                            <div class="bar__metadata"><span>CSS</span><span>20%</span></div>
+                            <div class="bar__bg">
+                                <div class="bar__value" style="width: 20%"></div>
+                            </div>
+                        </li>
+                        <li class="bar">
+                            <div class="bar__metadata"><span>JAVA</span><span>30%</span></div>
+                            <div class="bar__bg">
+                                <div class="bar__value" style="width: 30%"></div>
+                            </div>
+                        </li>
+                        <li class="bar">
+                            <div class="bar__metadata"><span>JAVASCRIPT</span><span>20%</span></div>
+                            <div class="bar__bg">
+                                <div class="bar__value" style="width: 20%"></div>
+                            </div>
+                        </li>
+                        <li class="bar">
+                            <div class="bar__metadata"><span>NODEJS</span><span>20%</span></div>
+                            <div class="bar__bg">
+                                <div class="bar__value" style="width: 20%"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </h3>
+            </section>
+            <section class="skills__tools">
+                <h3 class="skills__title">Tools
+                    <ul>
+                        <li>Visual Studio Code</li>
+                        <li>IntelliJ</li>
+                    </ul>
+                </h3>
+            </section>
+            <section class="skills__etc">
+                <h3 class="skills__title">ETC
+                    <ul>
+                        <li>Git</li>
+                    </ul>
+                </h3>
+            </section>
+    </section>
+    </div>
+     
+    
+    <!-- Work 일단 레퍼런스 참조 이미지 채우기-->
+      <section id="work" class="section">
+        <div class="max-container">
+          <h2 class="title">My work</h2>
+          <p class="description">Projects</p>
+          <ul class="projects">
+            <li class="project">
+              <a href="#" target="_blank">
+                <img
+                  src="images/projects/project1.webp"
+                  alt="project1"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">Project #1</h3>
+                  <p>프로젝트 설명내용</p>
+                </div>
+              </a>
+            </li>
+            <li class="project">
+              <a href="#" target="_blank">
+                <img
+                  src="images/projects/project2.webp"
+                  alt="project2"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">Project #2</h3>
+                  <p>프로젝트 설명내용</p>
+                </div>
+              </a>
+            </li>
+            <li class="project">
+              <a href="#" target="_blank">
+                <img
+                  src="images/projects/project3.webp"
+                  alt="project3"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">Project #3</h3>
+                  <p>프로젝트 설명내용</p>
+                </div>
+              </a>
+            </li>
+            <li class="project">
+              <a href="#" target="_blank">
+                <img
+                  src="images/projects/project4.webp"
+                  alt="project4"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">Project #4</h3>
+                  <p>프로젝트 설명내용</p>
+                </div>
+              </a>
+            </li>
+            <li class="project">
+              <a href="#" target="_blank">
+                <img
+                  src="images/projects/project5.webp"
+                  alt="project5"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">Project #5</h3>
+                  <p>프로젝트 설명내용</p>
+                </div>
+              </a>
+            </li>
+            <li class="project">
+              <a href="#" target="_blank">
+                <img
+                  src="images/projects/project6.webp"
+                  alt="project6"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">Project #6</h3>
+                  <p>프로젝트 설명내용</p>
+                </div>
+              </a>
+            </li>
+            <li class="project">
+              <a href="#" target="_blank">
+                <img
+                  src="images/projects/project7.webp"
+                  alt="project7"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">Project #7</h3>
+                  <p>프로젝트 설명내용</p>
+                </div>
+              </a>
+            </li>
+            <li class="project">
+              <a href="#" target="_blank">
+                <img
+                  src="images/projects/project8.webp"
+                  alt="project8"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">Project #8</h3>
+                  <p>프로젝트 설명내용</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!--추천서 대신 명언 채우기 태그는 그대로 wise saying -->
+      <section id="testimonial" class="section max-container">
+        <h2 class="title">wise saying</h2>
+        <p class="description">힘들때 도움되는 명언</p>
+        <ul class="testimonials">
+          <li class="testimonial">
+            <img
+              src="images/testimonials/billgates.webp"
+              class="testimonial__img"
+            />
+            <div class="testimonial__bubble">
+              <p>
+                “Change does not come to us because we wait for someone, something, or an afterthought. We ourselves are the people we have been waiting for, and we are the change we seek.”<br>
+                "변화는 우리가 누군가나 무엇, 혹은 후일을 기다린다고 찾아오지 않는다.<br> 우리 자신이 우리가 기다리던 사람이고 우리가 바로 우리가 추구하는 변화이다"
+              </p>
+              <p><a href="#" class="testimonial__bubble__name">Bill" Gates </a>/Microsoft CEO</p>
+            </div>
+          </li>
+          <li class="testimonial">
+            <img
+              src="images/testimonials/버핏.jpeg"
+              class="testimonial__img"
+            />
+            <div class="testimonial__bubble">
+              <p>
+                “It is a common experience for a problem that was difficult during the night to be resolved in the morning after a good night’s sleep.”<br>
+                “밤 사이 어려웠던 문제가 한 잠 푹 자고 나면 아침에 해결되어 있는 일은 흔한 경험이다.”
+              </p>
+              <p>
+                <p><a href="#" class="testimonial__bubble__name">Warren Edward Buffett </a>
+                  </p>
+            </div>
+          </li>
+          <li class="testimonial">
+            <img
+              src="images/testimonials/jooker.jpg"
+              alt="people3"
+              class="testimonial__img"
+            />
+            <div class="testimonial__bubble">
+              <p>
+                “As long as you can say, ‘Now is the worst,’ now is not the worst. Get up and do your job.”
+                 “‘지금이 최악이야’라고 말할 수 있는 한 지금이 최악은 아니다.” 
+              </p>
+              <p><a href="#" class="testimonial__bubble__name">Mark Zuckerberg</a>/Facebook CEO</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <!-- aside 태그 사용한 Arrow up 이것도 폰트어썸사용 홈 올라가기 -->
+      <aside>
+        <a class="arrow-up" href="#home">
+          <i class="fa-solid fa-arrow-up"></i>
+        </a>
+      </aside>
+    </main>
+ 
+    <!-- 간단히 깃허브만 연결 Footer -->
+    <footer id="contact" class="section">
+      <div class="max-container">
+          <h2 class="title">Contact me</h2>
+          <p class="description">bm4564@naver.com</p>
+          <ul class="contact__links">
+              <li>
+                  <a class="contact__link" href="http://github.com/wjdtngus3"><i class="fa-brands fa-github"></i></a>
+              </li>
+          </ul>
+          <p>Hyun - All rights reserved</p>
+      </div>
+  </footer>
+  </body>
+</html>
